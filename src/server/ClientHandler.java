@@ -82,6 +82,10 @@ public class ClientHandler implements Runnable {
                                 System.out.println(result);
                                 break;
                             }
+                            case "=": {
+                                System.out.println(result);
+                                break;
+                            }
                         }
                     }
                 }

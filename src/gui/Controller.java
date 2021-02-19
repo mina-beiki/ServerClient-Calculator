@@ -2,6 +2,7 @@ package gui;
 
 import client.Client;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -9,6 +10,9 @@ import javafx.scene.input.MouseEvent;
 import java.awt.*;
 
 public class Controller {
+
+    @FXML
+    private Label resultLabel ;
 
     @FXML
     private TextField textField;
@@ -54,10 +58,15 @@ public class Controller {
         if(ctr==0){
             client = new Client(7660);
             client.runClient();
-        }
-        client.sendMessage(0+"",numStr);
-        client.sendMessage(1+"",operator);
+            client.sendMessage(0+"",numStr);
 
+        }else{
+            result = client.sendMessage(0+"",numStr);
+            System.out.println(result);
+        }
+
+        resultLabel.setText(result);
+        client.sendMessage(1+"",operator);
 
         ctr++ ;
     }
@@ -65,4 +74,5 @@ public class Controller {
     public void clearClicked(MouseEvent mouseEvent) {
         textField.setText("");
     }
+
 }
