@@ -1,5 +1,6 @@
 package gui;
 
+import client.Client;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -16,6 +17,11 @@ public class Controller {
     button7 , button8 , button9 , buttonFract , buttonMultiply , buttonSum , buttonSub , buttonClear , buttonEqual , buttonDelete;
 
     private String numStr ;
+    private int ctr = 0 ;
+
+    private Client client ;
+
+    private String result = "";
 
     public void insertNumber(String num){
         textField.setText(textField.getText() + num);
@@ -25,6 +31,7 @@ public class Controller {
         javafx.scene.control.Button button = (javafx.scene.control.Button) mouseEvent.getSource();
         String number = button.getText();
         insertNumber(number);
+
     }
 
 
@@ -42,6 +49,17 @@ public class Controller {
         textField.setText("");
         System.out.println("number = "+numStr);
         System.out.println("operator = "+operator);
+
+        //send to server :
+        if(ctr==0){
+            client = new Client(7660);
+            client.runClient();
+        }
+        client.sendMessage(0+"",numStr);
+        client.sendMessage(1+"",operator);
+
+
+        ctr++ ;
     }
 
     public void clearClicked(MouseEvent mouseEvent) {
