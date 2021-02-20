@@ -98,6 +98,9 @@ public class ClientHandler implements Runnable {
                 //send message to client : (saves the last string to repository and sends it )
                 serverMessage = result+"" ;
                 System.out.println("+To Client"+ clientNum + " : " + serverMessage);
+                if(operator.equals("=") && tool.equals("1")){
+                    result = 0 ;
+                }
                 // write to client :
                 output.write(serverMessage.getBytes());
                 output.flush();
