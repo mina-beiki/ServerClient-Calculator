@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP-review/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AP-review/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +55,24 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1oZLDgON5tbU0ExlWts7imru51Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -67,18 +82,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -105,17 +121,30 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="gui.MainGUI" />
       <module name="AP-review" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.MainServer" />
+      <module name="AP-review" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,6 +186,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -179,8 +217,38 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613671908523">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.836@0.0.1440.836" timestamp="1613671908523" />
+    <state x="494" y="342" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613491772053">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state x="494" y="342" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.836@0.0.1440.836" timestamp="1613491772053" />
+    <state width="1398" height="247" key="GridCell.Tab.0.bottom" timestamp="1613811637419">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.bottom/0.0.1440.836@0.0.1440.836" timestamp="1613811637419" />
+    <state width="1053" height="199" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1613749293019" />
+    <state width="1398" height="247" key="GridCell.Tab.0.center" timestamp="1613811637417">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.center/0.0.1440.836@0.0.1440.836" timestamp="1613811637417" />
+    <state width="1053" height="199" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1613749293017" />
+    <state width="1398" height="247" key="GridCell.Tab.0.left" timestamp="1613811637416">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.left/0.0.1440.836@0.0.1440.836" timestamp="1613811637416" />
+    <state width="1053" height="199" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1613749293015" />
+    <state width="1398" height="247" key="GridCell.Tab.0.right" timestamp="1613811637418">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state width="1398" height="247" key="GridCell.Tab.0.right/0.0.1440.836@0.0.1440.836" timestamp="1613811637418" />
+    <state width="1053" height="199" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1613749293018" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1613493397660">
+      <screen x="0" y="0" width="1440" height="836" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.836@0.0.1440.836" timestamp="1613493397660" />
   </component>
 </project>
